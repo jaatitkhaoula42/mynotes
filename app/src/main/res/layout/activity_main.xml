@@ -6,30 +6,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <LinearLayout
-        android:orientation="vertical"
-        android:gravity="center"
-        android:background="#FFF8E1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/img"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ExtraText"
+        tools:layout_editor_absoluteX="0dp">
 
         <TextView
-            android:text="Welcome to My Notes"
-            android:textSize="24sp"
-            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
             android:layout_marginBottom="20dp"
-            android:textColor="#4E342E"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:text="𝓣𝓱𝓲𝓼 𝓲𝓼 𝔀𝓱𝓮𝓻𝓮 𝓽𝓱𝓮 \n 𝓺𝓾𝓲𝓮𝓽 𝓱𝓮𝓪𝓻𝓽𝓼 𝓵𝓲𝓿𝓮💖"
+            android:textColor="#AD1457"
+            android:textSize="24sp" />
 
-        <Button
-            android:id="@+id/btnStart"
-            android:text="Go to Notes"
-            android:textSize="18sp"
-            android:background="#8D6E63"
-            android:textColor="#FFFFFF"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/shadowButton"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text=" LET'S GOO"
+            android:textColor="@android:color/white"
+            android:textStyle="italic"
+            app:backgroundTint="#EE6F0F39"
+            app:cornerRadius="20dp"
+            />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

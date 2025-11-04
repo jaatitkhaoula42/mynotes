@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".notesListActivity">
     <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
         android:padding="16dp"
         android:background="#FFF3E0"
@@ -15,20 +16,23 @@
 
         <TextView
             android:text="My Notes"
-            android:textSize="22sp"
+            android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="#4E342E"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <ListView
             android:id="@+id/listViewNotes"
-            android:divider="#BCAAA4"
+            android:divider="#D7CCC8"
             android:dividerHeight="1dp"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:padding="8dp"
+            android:clipToPadding="false"/>
 
         <Button
             android:id="@+id/btnAddNote"
@@ -36,7 +40,13 @@
             android:textSize="18sp"
             android:background="#8D6E63"
             android:textColor="#FFFFFF"
+            android:layout_marginTop="12dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:backgroundTint="#8D6E63"
+            android:shape="rectangle"
+            android:radius="12dp"/>
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
