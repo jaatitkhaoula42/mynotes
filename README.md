@@ -1,55 +1,53 @@
-📄 Description
+# MyNotes
+
+<p align="center">
+
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Android%20Studio-4285F4?style=for-the-badge&logo=androidstudio&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Room%20Database-5C2D91?style=for-the-badge&logo=android&logoColor=white"/>
+
+</p>
+
+---
+
+## 📄 Description
 
 MyNotes is an Android application written in Kotlin that allows users to create, edit, and manage personal notes. It provides a simple and clean interface to help you organize your ideas and remember important tasks.
 
-✅ Features
+---
 
-Create new notes with title and content.
+## 📸 Screenshots
 
-View a list of all saved notes.
+| Home Screen | Add Note | Note Details |
+|------------|-----------|---------------|
+| *(Add your screenshot here)* | *(Add your screenshot here)* | *(Add your screenshot here)* |
 
-Edit or delete existing notes.
+---
 
-Persistent storage ensures notes are saved between sessions.
+## ✅ Features
 
-Clean and user-friendly interface.
+- Create new notes with title and content  
+- View a list of all saved notes  
+- Edit or delete existing notes  
+- Persistent local storage  
+- Clean and user-friendly interface  
 
-🛠 Tech Stack
+---
 
-Language: Kotlin
+## 🛠 Tech Stack
 
-UI: XML layouts
+- **Language:** Kotlin  
+- **UI:** XML layouts  
+- **IDE:** Android Studio  
+- **Database:** SQLite or Room  
+- **Build System:** Gradle (KTS)  
 
-IDE: Android Studio
+---
 
-Storage: SQLite or Room 
+## 📥 Installation & Running
 
-Build system: Gradle
-
-📥 Installation & Running
-
-Clone the repository:
-
-git clone 
-
-https://github.com/jaatitkhaoula42/mynotes.git
-
-Open the project in Android Studio.
-
-Sync Gradle to resolve dependencies.
-
-Build and run the app on an emulator or Android device.
-
-🎮 Usage
-
-On app launch, you’ll see your notes list.
-
-Tap the “+” button to create a new note.
-
-Tap a note to edit or delete it.
-
-Notes remain saved even after closing the app.
-
-📜 License
-
-This project is licensed under the MIT License – feel free to use, modify, and share.
+```bash
+git clone https://github.com/jaatitkhaoula42/mynotes.git
