@@ -49,3 +49,7 @@ Tap the “+” button to create a new note.
 Tap a note to edit or delete it.
 
 Notes remain saved even after closing the app.
+
+📜 License
+
+This project is licensed under the MIT License – feel free to use, modify, and share.
