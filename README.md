@@ -13,7 +13,7 @@
 
 ---
 📸 Screenshots
-<p align="center"> <img src="https://github.com/jaatitkhaoula42/mynotes/blob/main/mynote1.jpg?raw=true" width="250"/> <img src="https://github.com/jaatitkhaoula42/mynotes/blob/main/mynote2.jpg?raw=true" width="250"/> <img src="https://github.com/jaatitkhaoula42/mynotes/blob/main/mynote3.jpg?raw=true" width="250"/> </p>
+<p align="center"> <img src="https://github.com/jaatitkhaoula42/mynotes/blob/main/Mynote1.jpg?raw=true" width="250"/> <img src="https://github.com/jaatitkhaoula42/mynotes/blob/main/.jpg?raw=true" width="250"/> <img src="https://github.com/jaatitkhaoula42/mynotes/blob/main/.jpg?raw=true" width="250"/> </p>
 
 ---
 
