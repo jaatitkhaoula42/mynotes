@@ -23,14 +23,6 @@ MyNotes is an Android application written in Kotlin that allows users to create,
 
 ---
 
-## 📸 Screenshots
-
-| Home Screen | Add Note | Note Details |
-|------------|-----------|---------------|
-| *https://github.com/jaatitkhaoula42/mynotes/blob/main/Mynote1.png* | *https://github.com/jaatitkhaoula42/mynotes/blob/main/Mynote2.png* | *https://github.com/jaatitkhaoula42/mynotes/blob/main/Mynote2.png* |
-
----
-
 ## ✅ Features
 
 - Create new notes with title and content  
